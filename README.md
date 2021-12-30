@@ -70,7 +70,28 @@ Finalmente colocando los espacios:
 
 `No dEseo Verte Mas Me haS dECEpciOnaDo prefIErO estar sOlO adiossSsssSsssSssSssssSSsssssSssSSsS`
 
-## Dependencias
+
 ## Usar la clase BaconCoding
+En este proyecto se proporciona el archivo `baconcoding.py` que contiene una clase con los métodos necesarios para encriptar un mensaje en código bacon.
+La clase posee dos métodos principales:
+
+- `codificaBacon(message, fakemessage='')`: Codifica un mensaje original con un mensaje falso, aplicando todo el proceso anteriormente explicado, y devolviendo la cadena resultado. En caso de no proporcionar un mensaje falso, se aplicará la encriptación a un 'lorem ipsum'.
+
+- `decodificaBacon(message)`: Dada una cadena encriptada con código Bacon, devuelve el mensaje original aplicando el procedimiento inverso
+
 ## Usar la GUI
-## Archivo ejecutable para Windows
+Junto con el archivo que contiene la clase, este proyecto proporciona una GUI para facilitar y hacer más ameno el uso de este código, es tan simple como ejecutar:
+```
+python baconcoding_gui.py
+```
+## Dependencias del proyecto
+Para usar este proyecto localmente, debe tener instalado los siguientes paquetes:
+
+- lorem: Para generar el texto aleatorio al codificar
+
+- PyQt5: Para poder hacer uso de la GUI
+
+Recuerde que puede instalar todas estas dependencias con el fichero `requirements.txt` usando el comando:
+```
+pip -r requirements.txt
+```

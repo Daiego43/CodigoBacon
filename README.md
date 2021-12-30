@@ -1,4 +1,4 @@
-# Cifrador/Descifrador de Código Bacon
+# Cifrador/Descifrador de Código Bacon (Este .md es un WIP)
 ## Dependencias del proyecto
   - lorem
   - PyQt5

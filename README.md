@@ -1,4 +1,4 @@
-# Cifrador/Descifrador de Código Bacon (Este .md es un WIP)
+# Cifrador/Descifrador de Código Bacon
 ## Introducción
 El Código Bacon o clave Baconiana (en inglés Baconian cipher), es un método criptográfico desarrollado por Francis Bacon. El mensaje estaría oculto en la presentación del texto, más que en su contenido.
 
